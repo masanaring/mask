@@ -45,14 +45,21 @@
  3*n
 
 #　実装した機能についてのGIF
-https://gyazo.com/da55de304cd326bacbcea37284bd4e68
-
+https://gyazo.com/82542004955bba52549bac5f9258f229
 マスクをしている場合は”OK MASK"
+と画面に出力される。
+<img width="503" alt="スクリーンショット 2021-04-07 11 08 44" src="https://user-images.githubusercontent.com/73056512/113800876-af7a9d80-9792-11eb-9809-2677c49990e3.png">
+
 マスクをしていない場合は”Alert！NO MASK!"
 と画面に出力される。
+<img width="494" alt="スクリーンショット 2021-04-07 11 07 55" src="https://user-images.githubusercontent.com/73056512/113801043-01bbbe80-9793-11eb-839c-84714fa46b22.png">
+
 
 #　動作方法
-gitからクローンを作成する。
+本プログラムはマスクの確認を目的としているが、
+その使用環境は常にネット回線が整っているとは限らないと考えられる。
+そのためgitからクローンを作成し使用する物とする
+。
 git clone https://github.com/masanaring/mask
 maskディレクトリに移動し、"python live_check.py"を実行する。
 
